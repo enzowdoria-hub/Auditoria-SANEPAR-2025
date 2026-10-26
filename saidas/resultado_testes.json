@@ -1,0 +1,98 @@
+{
+  "registros": 500000,
+  "n_amostra": 400,
+  "quantidades_excecoes": {
+    "LIQUIDO_INCONSISTENTE": 180,
+    "DOCUMENTO_AUSENTE": 125,
+    "DATA_APOS_CORTE": 123
+  },
+  "excecoes_inseridas": 428,
+  "excecoes_detectadas": 428,
+  "verdadeiros_positivos": 428,
+  "falsos_positivos": 0,
+  "falsos_negativos": 0,
+  "categorias": [
+    {
+      "categoria": "Sistemas de Água",
+      "quantidade": 230000,
+      "custo_centavos": 812903500000,
+      "amortizacao_centavos": 258819400000,
+      "valor_liquido_registrado_centavos": 554056793922,
+      "valor_liquido_esperado_centavos": 554084100000,
+      "diferenca_registrado_menos_esperado_centavos": -27306078,
+      "custo_confere_DFP": true,
+      "amortizacao_confere_DFP": true
+    },
+    {
+      "categoria": "Sistemas de Esgoto",
+      "quantidade": 225000,
+      "custo_centavos": 873050600000,
+      "amortizacao_centavos": 228713500000,
+      "valor_liquido_registrado_centavos": 644273836706,
+      "valor_liquido_esperado_centavos": 644337100000,
+      "diferenca_registrado_menos_esperado_centavos": -63263294,
+      "custo_confere_DFP": true,
+      "amortizacao_confere_DFP": true
+    },
+    {
+      "categoria": "Resíduos Sólidos",
+      "quantidade": 1000,
+      "custo_centavos": 757700000,
+      "amortizacao_centavos": 757700000,
+      "valor_liquido_registrado_centavos": 0,
+      "valor_liquido_esperado_centavos": 0,
+      "diferenca_registrado_menos_esperado_centavos": 0,
+      "custo_confere_DFP": true,
+      "amortizacao_confere_DFP": true
+    },
+    {
+      "categoria": "Direitos de Uso e Operação de Sistemas",
+      "quantidade": 2000,
+      "custo_centavos": 12512000000,
+      "amortizacao_centavos": 8308900000,
+      "valor_liquido_registrado_centavos": 4208980463,
+      "valor_liquido_esperado_centavos": 4203100000,
+      "diferenca_registrado_menos_esperado_centavos": 5880463,
+      "custo_confere_DFP": true,
+      "amortizacao_confere_DFP": true
+    },
+    {
+      "categoria": "Direito de Uso em Arrendamento",
+      "quantidade": 4000,
+      "custo_centavos": 20211500000,
+      "amortizacao_centavos": 3669400000,
+      "valor_liquido_registrado_centavos": 16540500568,
+      "valor_liquido_esperado_centavos": 16542100000,
+      "diferenca_registrado_menos_esperado_centavos": -1599432,
+      "custo_confere_DFP": true,
+      "amortizacao_confere_DFP": true
+    },
+    {
+      "categoria": "Sistemas de Informática em Implantação",
+      "quantidade": 5000,
+      "custo_centavos": 12062300000,
+      "amortizacao_centavos": 0,
+      "valor_liquido_registrado_centavos": 12068394245,
+      "valor_liquido_esperado_centavos": 12062300000,
+      "diferenca_registrado_menos_esperado_centavos": 6094245,
+      "custo_confere_DFP": true,
+      "amortizacao_confere_DFP": true
+    },
+    {
+      "categoria": "Outros Ativos Intangíveis",
+      "quantidade": 33000,
+      "custo_centavos": 46343900000,
+      "amortizacao_centavos": 17339900000,
+      "valor_liquido_registrado_centavos": 29022576227,
+      "valor_liquido_esperado_centavos": 29004000000,
+      "diferenca_registrado_menos_esperado_centavos": 18576227,
+      "custo_confere_DFP": true,
+      "amortizacao_confere_DFP": true
+    }
+  ],
+  "custo_total_centavos": 1777841500000,
+  "amort_total_centavos": 517608800000,
+  "liquido_esperado_centavos": 1260232700000,
+  "liquido_registrado_centavos": 1260171082131,
+  "limites": "Testes documentais, datas e recálculo exclusivos da população fabricada; não atestam bens reais nem auditoria independente. Amostra de 400 somente exploratória, sem desenho de tolerância ou projeção estatística."
+}
