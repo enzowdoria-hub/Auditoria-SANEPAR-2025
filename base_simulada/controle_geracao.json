@@ -1,0 +1,58 @@
+{
+  "aviso": "BASE TOTALMENTE SINTETICA; NAO REPRESENTA CADASTRO REAL DA SANEPAR",
+  "seed": 20251025,
+  "registros": 500000,
+  "saldos_por_categoria": [
+    {
+      "categoria": "Sistemas de Água",
+      "n": 230000,
+      "custo_centavos": 812903500000,
+      "amortizacao_centavos": 258819400000,
+      "liquido_correto_centavos": 554084100000
+    },
+    {
+      "categoria": "Sistemas de Esgoto",
+      "n": 225000,
+      "custo_centavos": 873050600000,
+      "amortizacao_centavos": 228713500000,
+      "liquido_correto_centavos": 644337100000
+    },
+    {
+      "categoria": "Resíduos Sólidos",
+      "n": 1000,
+      "custo_centavos": 757700000,
+      "amortizacao_centavos": 757700000,
+      "liquido_correto_centavos": 0
+    },
+    {
+      "categoria": "Direitos de Uso e Operação de Sistemas",
+      "n": 2000,
+      "custo_centavos": 12512000000,
+      "amortizacao_centavos": 8308900000,
+      "liquido_correto_centavos": 4203100000
+    },
+    {
+      "categoria": "Direito de Uso em Arrendamento",
+      "n": 4000,
+      "custo_centavos": 20211500000,
+      "amortizacao_centavos": 3669400000,
+      "liquido_correto_centavos": 16542100000
+    },
+    {
+      "categoria": "Sistemas de Informática em Implantação",
+      "n": 5000,
+      "custo_centavos": 12062300000,
+      "amortizacao_centavos": 0,
+      "liquido_correto_centavos": 12062300000
+    },
+    {
+      "categoria": "Outros Ativos Intangíveis",
+      "n": 33000,
+      "custo_centavos": 46343900000,
+      "amortizacao_centavos": 17339900000,
+      "liquido_correto_centavos": 29004000000
+    }
+  ],
+  "erros_inseridos": 428,
+  "fonte": "SANEPAR DFP 2025, Nota 13(b), valores em R$ mil"
+}
